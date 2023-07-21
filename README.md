@@ -7,7 +7,7 @@ A module should have only one reason to change
 ### OCP - Open/Closed Principle
 A module should be open for extension but closed for modification
 
-### LSP - Liskv Substitution Principle
+### LSP - Liskov Substitution Principle
 Subclasses should be substitutable for their base classes
 
 ### ISP - Interface Segregation Principle
