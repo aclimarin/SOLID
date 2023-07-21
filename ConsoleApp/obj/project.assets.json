@@ -1,0 +1,165 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "DIP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DIP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DIP.dll": {}
+        }
+      },
+      "ISP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ISP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ISP.dll": {}
+        }
+      },
+      "LSP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LSP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LSP.dll": {}
+        }
+      },
+      "OCP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/OCP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OCP.dll": {}
+        }
+      },
+      "SRP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SRP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SRP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DIP/1.0.0": {
+      "type": "project",
+      "path": "../DIP/DIP.csproj",
+      "msbuildProject": "../DIP/DIP.csproj"
+    },
+    "ISP/1.0.0": {
+      "type": "project",
+      "path": "../ISP/ISP.csproj",
+      "msbuildProject": "../ISP/ISP.csproj"
+    },
+    "LSP/1.0.0": {
+      "type": "project",
+      "path": "../LSP/LSP.csproj",
+      "msbuildProject": "../LSP/LSP.csproj"
+    },
+    "OCP/1.0.0": {
+      "type": "project",
+      "path": "../OCP/OCP.csproj",
+      "msbuildProject": "../OCP/OCP.csproj"
+    },
+    "SRP/1.0.0": {
+      "type": "project",
+      "path": "../SRP/SRP.csproj",
+      "msbuildProject": "../SRP/SRP.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "DIP >= 1.0.0",
+      "ISP >= 1.0.0",
+      "LSP >= 1.0.0",
+      "OCP >= 1.0.0",
+      "SRP >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ana.marinato\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\github\\SOLID\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\github\\SOLID\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\ana.marinato\\.nuget\\packages\\",
+      "outputPath": "C:\\github\\SOLID\\ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ana.marinato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\github\\SOLID\\DIP\\DIP.csproj": {
+              "projectPath": "C:\\github\\SOLID\\DIP\\DIP.csproj"
+            },
+            "C:\\github\\SOLID\\ISP\\ISP.csproj": {
+              "projectPath": "C:\\github\\SOLID\\ISP\\ISP.csproj"
+            },
+            "C:\\github\\SOLID\\LSP\\LSP.csproj": {
+              "projectPath": "C:\\github\\SOLID\\LSP\\LSP.csproj"
+            },
+            "C:\\github\\SOLID\\OCP\\OCP.csproj": {
+              "projectPath": "C:\\github\\SOLID\\OCP\\OCP.csproj"
+            },
+            "C:\\github\\SOLID\\SRP\\SRP.csproj": {
+              "projectPath": "C:\\github\\SOLID\\SRP\\SRP.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
