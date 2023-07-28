@@ -1,5 +1,5 @@
 # SOLID
-Simple implamentation of each SOLID principle
+Simple implamentation of each SOLID principles
 
 ### SRP - Single Responsability Principle
 A module should have only one reason to change
